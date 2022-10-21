@@ -40,3 +40,35 @@ a {
 a:hover {
     color: #82E8FF;
 }
+#stagbeetle{
+    background-color: #b26219; 
+    /*align-items: center;*/
+}
+#ladybug{
+    background-color: #ffd5ad;
+}
+#bluemintbeetle{
+    background-color: #ffbd82;}
+
+article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+section{
+    align-items: center;
+}
+
+.text h2 {
+    text-align:center;
+}
+header {
+    display: flex;
+    flex-direction: row;
+}
+nav ul{
+    display:flex
+    flex-direction:row;
+}
