@@ -44,6 +44,7 @@ a:hover {
     background-color: #b26219; 
     /*align-items: center;*/
 }
+
 #ladybug{
     background-color: #ffd5ad;
 }
@@ -52,11 +53,11 @@ a:hover {
 
 article{
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    
-    
-}
+    padding-top: 20px;
+    }
+
 section{
     align-items: center;
 }
@@ -66,10 +67,23 @@ section{
 }
 header {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20px;
 }
-nav ul{
-    display:flex
-    flex-direction:row;
+.text {padding-top: 15px
+font: size 12px;
+line: height30px;
 }
+p{
+    max-width: 600px;
+}
+footer > p{
+    text-align: center;
+    align-content: center;
+}
+    
+
+
 
