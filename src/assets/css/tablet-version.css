@@ -1,0 +1,128 @@
+/* you will add css rules for element selectors and IDs */
+
+
+/* you may add to or change the body rule */
+body {
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+}
+img {
+    max-width: 100%; /* DO NOT delete or change this line */
+}
+
+/* ----- SUGGESTED COLORS -----
+    - ARTICLES
+    B26219 cinnamon
+    FFD5AE pale peach
+    FFBD82 peach
+    - LINKS
+    379CB2 medium blue
+    82E8FF light blue
+
+   ----- NEUTRAL COLORS you may use also -----
+   000 black
+   333 charcoal
+   666 dark medium gray
+   999 light medium gray
+   ccc pale gray
+   fff white
+*/
+
+
+/* --- link pseudo classes --- */
+/* --- you may ADD other link pseudo classes for
+        specific articles or sections to improve CONTRAST --- */
+
+a {
+    color: #379CB2;
+}
+a:hover {
+    color: #82E8FF;
+}
+#stagbeetle{
+    background-color: #b26219; 
+
+}
+
+#ladybug{
+    background-color: #ffd5ad;
+}
+#bluemintbeetle{
+    background-color: #ffbd82;}
+
+    p{
+        max-width: 600px;
+    
+
+    }
+
+    .text {
+        padding: 10px;
+        padding-top: 15px;
+        font-size:  12px;
+        line-height: 30px;
+        background-color: white;
+        color: black;
+        max-width: 600px;
+        box-sizing: border-box;
+        
+
+
+    }
+
+    .text h2{
+        text-align: center;
+    }
+
+    article{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    padding-top: 20px;
+    }
+
+    footer {
+        display:flex;
+        background-color: #333;
+        justify-content: center;
+    }
+
+    footer > p {
+        text-align: center;
+        align-content: center;
+    }
+
+    header {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header > h1 {
+        align-self: center;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+    }
+nav ul li{
+    list-style: none;
+    padding: 5px;
+    margin: 3px;
+}
+
+a:visited {
+    color: #82E8FF;
+}
+
+section {
+    align-items: centre;
+    flex-direction: column;
+    padding: 20px;
+}
+
+    
